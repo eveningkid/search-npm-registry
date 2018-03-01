@@ -3,7 +3,7 @@ Quickly query NPM registry.
 
 ## How to use?
 ```js
-const searchNpmRegisty = require('search-npm-registry');
+const searchNpmRegistry = require('search-npm-registry');
 
 (async () => {
   const results = await searchNpmRegistry()
