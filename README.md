@@ -5,13 +5,15 @@ Quickly query NPM registry.
 ```js
 const searchNpmRegisty = require('search-npm-registry');
 
-const results = await searchNpmRegistry()
-  .text('react')
-  .size(5)
-  .search();
+(async () => {
+  const results = await searchNpmRegistry()
+    .text('react')
+    .size(5)
+    .search();
 
-// results = [{ name: 'react', description: '...', ... }, ...]
-console.log(results);
+  // results = [{ name: 'react', description: '...', ... }, ...]
+  console.log(results);
+});
 ```
 
 ## API
