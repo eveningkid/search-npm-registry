@@ -13,7 +13,7 @@ const searchNpmRegisty = require('search-npm-registry');
 
   // results = [{ name: 'react', description: '...', ... }, ...]
   console.log(results);
-});
+})();
 ```
 
 ## API
