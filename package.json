@@ -1,6 +1,6 @@
 {
   "name": "search-npm-registry",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Search packages/modules among the NPM registry.",
   "main": "index.js",
   "scripts": {
