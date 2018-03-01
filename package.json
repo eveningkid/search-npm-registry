@@ -1,0 +1,17 @@
+{
+  "name": "search-npm-registry",
+  "version": "1.0.0",
+  "description": "Search packages/modules among the NPM registry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "eveningkid",
+  "license": "MIT",
+  "repository": "to-be-defined",
+  "dependencies": {
+    "got": "^8.2.0",
+    "registry-url": "^3.1.0"
+  }
+}
