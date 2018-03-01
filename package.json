@@ -6,10 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "keyword",
+    "package",
+    "packages",
+    "module",
+    "modules",
+    "pkg",
+    "registry",
+    "find",
+    "search"
+  ],
   "author": "eveningkid",
   "license": "MIT",
-  "repository": "to-be-defined",
+  "repository": "eveningkid/search-npm-registry",
   "dependencies": {
     "got": "^8.2.0",
     "registry-url": "^3.1.0"
